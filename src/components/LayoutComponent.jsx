@@ -40,7 +40,8 @@ const LayoutComponent = ({children}) => {
               width: 64,
               height: 64,
             }}
-          />  
+          /> 
+           <span style={{ fontSize: '24px', marginLeft: '40px', fontWeight:"bold" }}> <span style={{color:"#087EA4"}}>React</span><span style={{color:"#EA4335"}}>JS</span> Bangla Tutorial</span>
         </Header>
         <Content  style={{
             margin: '24px 16px',

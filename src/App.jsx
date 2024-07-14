@@ -1,41 +1,34 @@
-import React, { useEffect, useState } from 'react'
-import LayoutComponent from './components/LayoutComponent';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Activity from './pages/Activity';
+import React, { useEffect, useState } from "react";
+import LayoutComponent from "./components/LayoutComponent";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Activity from "./pages/Activity";
 // import Markdown from 'markdown-to-jsx';
-import Markdown from 'react-markdown';
+import Markdown from "react-markdown";
 import MarkdownRenderer from "./components/MarkdownRenderer";
+import ReactInfo from "./pages/ReactInfo";
+import ComponentInfo from "./pages/ComponentInfo";
+import JSX from "./pages/JSX";
 
 function App() {
-  
-  const fileName = 'what_is_react.md';
-  const [post, setPost] = useState('');
-
-  useEffect(() => {
-    fetch(fileName)
-    .then(res => res.text())
-    .then(res => setPost(res))
-    .catch(err => console.error(err));
-  },[]);
-
   return (
-   <Router>
-     <LayoutComponent >
-      <Routes>
-        {/* <Route path='/' element={<App />} /> */}
-        <Route path='/home' element={<Home content={post}/>} />
-        <Route path='/activity' element={<Activity />} />
-        <Route
-            path='/react-info'
-            // element={<Markdown>{post}</Markdown>}
-            element={  <MarkdownRenderer  content={post}/>}
+    <Router>
+      <LayoutComponent>
+        <Routes>
+          {/* <Route path='/' element={<App />} /> */}
+          <Route path="/home" element={<Home />} />
+          <Route
+            path="/react-info"
+            // element={<Markdown>{content}</Markdown>}
+            // element={  <MarkdownRenderer  content={content}/>}
+            element={<ReactInfo />}
           />
-      </Routes>
-    
-    </LayoutComponent >
-   </Router>
+          <Route path="/component" element={<ComponentInfo />} />
+          <Route path="/jsx" element={<JSX />} />
 
+        </Routes>
+      </LayoutComponent>
+    </Router>
   );
 }
 

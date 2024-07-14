@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+@font-face {
+  font-family: 'Siyam Rupali';
+  src: url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.eot?version=1.070');
+  src: local('Siyam Rupali'),
+       url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.woff?version=1.070') format('woff'),
+       url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.ttf?version=1.070') format('truetype');
+  font-style: normal;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +18,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  /* font-family: "Siyam Rupali", Cambria, sans-serif;   */
 }
 
 .sidebar{

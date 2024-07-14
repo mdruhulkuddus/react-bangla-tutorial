@@ -1,0 +1,15 @@
+.markdown-content { 
+    line-height: 1.6;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .markdown-content hr{
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+
+  .markdown-content img {
+    display: block;
+    margin: 0 auto;
+  }

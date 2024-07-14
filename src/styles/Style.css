@@ -1,0 +1,67 @@
+@font-face { font-family: 'Siyam Rupali';
+  src: url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.eot?version=1.070');
+  src: local('Siyam Rupali'),     url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.woff?version=1.070') format('woff'),        url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.ttf?version=1.070') format('truetype');
+  font-style: normal;}
+
+.hrline {
+    border: 1px solid #cccc;
+    margin: 20px 0;
+}
+
+.headline {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogTopImage{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    /* Centers vertically */
+    /* align-items: center;  */
+    height: auto;
+    margin: 20px 0;
+}
+
+.blog{
+    text-align: justify;
+    font-family: "Siyam Rupali", Cambria, sans-serif;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.blogContent p{
+    margin-top: 15px;
+}
+.codeBlock {
+    background-color: #f5f5f5; /* Light gray background */
+    border: 1px solid #ddd; /* Light gray border */
+  /* Some padding for better readability */
+    border-radius: 5px; /* Rounded corners */
+    overflow-x: auto; /* Horizontal scroll for long lines */
+    margin: 20px 0;
+    text-align: left;
+    padding: 10px 30px;
+  }
+  
+  .codeBlock code {
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+    white-space: pre; /* Preserve whitespace */
+  }
+
+  .blogImage{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    /* Centers vertically */
+    /* align-items: center;  */
+    height: auto;
+    margin: 15px 0;
+}
+
+.blogerName{
+    margin: 25px 0;
+    
+}
+
+.blogerName span{
+    font-weight: bold;
+}

@@ -1,17 +1,11 @@
-import {useEffect, useState} from 'react'
-// import Markdown from 'markdown-to-jsx';
-import MarkdownRenderer from "../components/MarkdownRenderer";
-// import MDXRenderer from "../components/MDXRenderer"
-import Markdown from 'react-markdown';
+import React from 'react'
 
-const Home = ({content}) => {
+
+const Home = () => {
 
   return (
     <div> 
-     <MarkdownRenderer  content={content}/>
-
-     {/* if write html style markdown then use this */}
-     {/* <Markdown>{content}</Markdown>   */}
+      Home
     </div>
   )
 }
