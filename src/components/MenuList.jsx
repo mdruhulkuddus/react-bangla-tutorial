@@ -7,7 +7,7 @@ import {
 } from "@ant-design/icons";
 import ReactIcon from '../assets/reactSVGicon/logo-react';
 import ComponetIcon from '../assets/reactSVGicon/component-icon';
-import { FiLayout } from "react-icons/fi";
+import { FiLayout, FiMinusSquare  } from "react-icons/fi";
 
 import { Link } from "react-router-dom";
 
@@ -30,7 +30,9 @@ const MenuList = ({ darkTheme }) => {
       <Menu.Item key="jsx" icon={<FiLayout />}>
         <Link to={`/jsx`}> JSX </Link>
       </Menu.Item>
-
+      <Menu.Item key="props" icon={<FiMinusSquare />}>
+        <Link to={`/props`}> Props </Link>
+      </Menu.Item>
       <Menu.SubMenu key="subtasks" title="Tasks" icon={<BarsOutlined />}>
         <Menu.Item key="task-1">Task 1</Menu.Item>
         <Menu.Item key="task-2">Task 2</Menu.Item>

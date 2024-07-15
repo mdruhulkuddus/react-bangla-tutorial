@@ -212,12 +212,12 @@ ReactDOM.render(<FunctionComponent />, document.getElementById('renderhere'));
         কে আমরা আমাদের ফাংশন কম্পোনেন্ট এর ভিতরে কল করবো, তাহলে এভাবে হবেঃ
         <pre className="codeBlock">
           <code>{` 
-              const FunctionComponent = () => (
-                    <div>
-                      <MyComponent />
-                      <p>A Function Component</p>
-                    </div>
-                  )
+            const FunctionComponent = () => (
+                  <div>
+                    <MyComponent />
+                    <p>A Function Component</p>
+                  </div>
+                )
         `}</code>
         </pre>
         আমরা যেহেতু একটাই মাত্র ইলিমেন্ট রিটার্ণ করতে পারবো, তাই অতিরিক্ত div

@@ -9,6 +9,7 @@ import MarkdownRenderer from "./components/MarkdownRenderer";
 import ReactInfo from "./pages/ReactInfo";
 import ComponentInfo from "./pages/ComponentInfo";
 import JSX from "./pages/JSX";
+import Props from "./pages/Props";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           />
           <Route path="/component" element={<ComponentInfo />} />
           <Route path="/jsx" element={<JSX />} />
+          <Route path="/props" element={<Props />} />
 
         </Routes>
       </LayoutComponent>
