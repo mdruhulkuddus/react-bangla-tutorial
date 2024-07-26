@@ -9,11 +9,11 @@
 }
 
 .headline {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.blogTopImage{
+.blogTopImage {
     display: flex;
     justify-content: center; /* Centers horizontally */
     /* Centers vertically */
@@ -21,7 +21,9 @@
     height: auto;
     margin: 20px 0;
 }
-
+.blogTopImage img{
+  height: 45vh;
+}
 .blog{
     text-align: justify;
     font-family: "Siyam Rupali", Cambria, sans-serif;
@@ -47,16 +49,30 @@
     font-family: 'Courier New', Courier, monospace; /* Monospaced font */
     white-space: pre; /* Preserve whitespace */
   }
-
+  .inlineCode {
+    background-color: #F0EFED; /* Light gray background */
+    /* border: 1px solid #ccc;  */
+    /* Light gray border */
+    border-radius: 3px; /* Rounded corners */
+    padding: 2px 4px; /* Some padding */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+    margin: 0px 5px;
+    font-weight: 600;
+  }
   .blogImage{
     display: flex;
     justify-content: center; /* Centers horizontally */
     /* Centers vertically */
     /* align-items: center;  */
-    height: auto;
+    height: 40vh;
     margin: 15px 0;
 }
-
+.blogSmallImage{
+  display: flex;
+  justify-content: center; 
+  height: auot;
+  margin: 15px 0;
+}
 .blogerName{
     margin: 25px 0;
     
@@ -64,4 +80,25 @@
 
 .blogerName span{
     font-weight: bold;
+}
+
+.subHeadline{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.blogSubheading{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.ordreList{
+  margin-top: 15px;
+}
+
+.ordreList li{
+  margin-top: 15px;
+  margin-left: 20px;
+  list-style-type: disc;
+
 }

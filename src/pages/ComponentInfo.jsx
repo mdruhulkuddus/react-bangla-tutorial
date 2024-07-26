@@ -12,6 +12,7 @@ const ComponentInfo = () => {
           alt="component"
         />
       </div>
+      
       <p>
         <br />
         <b>কম্পোনেন্ট</b> হচ্ছে রিঅ্যাক্ট এর বিউল্ডিং-ব্লক। রিঅ্যাক্ট এর একটা
@@ -155,17 +156,17 @@ const ComponentInfo = () => {
         রিঅ্যাক্টেও একইভাবে ফাংশন কম্পোনেন্ট লিখা যায়ঃ
         <pre className="codeBlock">
           <code>{`function FunctionComponent() {
-   // some code
-}
-`}</code>
+            // some code
+          }
+          `}</code>
         </pre>
         তবে রিঅ্যাক্ট এ যেহেতু আমরা ইএস৬ এর সিনট্যাক্স ব্যবহার করি, তাই আমরা
         ফ্যাট অ্যারো ফাংশন ব্যবহার করতে পারিঃ
         <pre className="codeBlock">
           <code>{`const FunctionComponent = () => {
-   // some code
-}
-`}</code>
+          // some code
+        }
+        `}</code>
         </pre>
         তবে এখানে খেয়াল রাখবেন যে আমরা ফাংশনের নামটা বড় হাতের অক্ষর দিয়ে লিখা
         শুরু করেছি। এটাকে প্যাসকেল ফরম্যাট বলা হয় এবং রিঅ্যাক্ট এর কম্পোনেন্ট
@@ -177,9 +178,9 @@ const ComponentInfo = () => {
         মতোই। আমরা আমাদের প্রোজেক্ট ফাইলে এরকমভাবে একটা ফাংশন কম্পোনেন্ট লিখবোঃ
         <pre className="codeBlock">
           <code>{` 
-const FunctionComponent = () => {
-   return <p>A Function Component</p>
-}`}</code>
+          const FunctionComponent = () => {
+            return <p>A Function Component</p>
+          }`}</code>
         </pre>
         ব্যাস এভাবেই হয়ে গেলো আমাদের ফাংশন কম্পোনেন্ট লিখা। এখন আমরা যেহেতু
         এখানে একটাই জেএসএক্স ইলিমেন্ট রিটার্ণ করতেছি, তাইলে আমরা এই ফাংশনটাকে
@@ -187,10 +188,10 @@ const FunctionComponent = () => {
         সেটা মনে করতে পারেন, একইভাবেঃ
         <pre className="codeBlock">
           <code>{` 
-const FunctionComponent = () => (
-   <p>A Function Component</p>
-)
-   `}</code>
+            const FunctionComponent = () => (
+              <p>A Function Component</p>
+            )
+              `}</code>
         </pre>
         এখন আমরা এই কম্পোনেন্টগুলো চাইলে ডমে রেন্ডার করতে পারবো কম্পোনেন্ট
         ইন্সট্যান্স ব্যবহার করে। কম্পোনেন্ট এর নাম যদি হয় FunctionComponent
@@ -199,12 +200,12 @@ const FunctionComponent = () => (
         আমাদের ডমে রেন্ডার করতে পারিঃ
         <pre className="codeBlock">
           <code>{` 
-ReactDOM.render(<FunctionComponent />, document.getElementById('renderhere'));
-`}</code>
+            ReactDOM.render(<FunctionComponent />, document.getElementById('renderhere'));
+            `}</code>
         </pre>
         ব্যাস এবার দেখবেন আপনার কম্পোনেন্ট ডমে রেন্ডার হয়েছে যেটা আপনি ব্রাউজারে
         দেখতে পাবেনঃ
-        <div className="blogImage">
+        <div className="blogSmallImage">
           <img src="/assets/images/component-page-img-1.webp" alt="img1" />
         </div>
         এবার চাইলে আপনি আপনার একটা কম্পোনেন্টকে আরেকটা কম্পোনেন্ট থেকেও ভিতর
@@ -223,7 +224,7 @@ ReactDOM.render(<FunctionComponent />, document.getElementById('renderhere'));
         আমরা যেহেতু একটাই মাত্র ইলিমেন্ট রিটার্ণ করতে পারবো, তাই অতিরিক্ত div
         দিয়েছি। আর বাকিটা আগের মতোই। এটাকে সেইভ করে ব্রাউজারে দেখবেন আপনার ক্লাস
         কম্পোনেন্টও চলে এসেছেঃ
-        <div className="blogImage">
+        <div className="blogSmallImage">
           <img src="/assets/images/component-page-img-2.webp" alt="img1" />
         </div>
         <b> আলাদা আলাদা ফাইলে কম্পোনেন্টঃ </b>
@@ -235,13 +236,13 @@ ReactDOM.render(<FunctionComponent />, document.getElementById('renderhere'));
         স্ট্রাকচার যেকোনোরকম ইচ্ছা করতে পারবেন। তবে এই স্ট্রাকচারেই অনেককে
         ব্যবহার করতে দেখবেন। প্রথমে src ডিরেক্টরির ভিতরে আরেকটা ডিরেক্টরি করুন
         components নামেঃ
-        <div className="blogImage">
+        <div className="blogSmallImage">
           <img src="/assets/images/component-page-img-3.webp" alt="img1" />
         </div>
         এবার এটার ভিতরে আমাদের দুই কম্পোনেন্ট এর নামে দুইটা জেএস ফাইল{" "}
         <code>MyComponent.js, FunctionComponent.js</code> তৈরী করে নিন। আপনি
         চাইলে যেকোনো নামই দিতে পারবেন, তবে কম্পোনেন্ট এর নামে নামকরণ করাই ভালো।
-        <div className="blogImage">
+        <div className="blogSmallImage">
           <img src="/assets/images/component-page-img-4.webp" alt="img1" />
         </div>
         এবার কম্পোনেন্ট দুইটার সবগুলো কোড কাট করে ওদের জন্য করা পৃথক ফাইলগুলোতে
@@ -347,7 +348,7 @@ ReactDOM.render(<FunctionComponent />, document.getElementById('renderhere'));
         কম্পোনেন্ট আছে, তাই আমরা সেই ডিরেক্টরির নাম দিয়ে তারপর ভিতর থেকে
         কম্পোনেন্টটা ইম্পোর্ট করেছি। এবার সবকিছু ঠিকঠাক থাকলে ফাইল সেইভ দেওয়ার
         পর দেখবেন ঠিক আগের মতোইর ব্রাউজারে সবকিছু ঠিকঠাক দেখাচ্ছেঃ
-        <div className="blogImage">
+        <div className="blogSmallImage">
           <img src="/assets/images/component-page-img-2.webp" alt="img1" />
         </div>
         ব্যাস! এভাবেই আমরা আলাদা আলাদা ফাইলে আমাদের কম্পোনেন্টগুলো নিয়ে গেলাম।

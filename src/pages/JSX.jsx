@@ -7,7 +7,7 @@ const JSX = () => {
       <h1 className="headline">রিঅ্যাক্ট ব্যাসিকসঃ জেএসএক্স (JSX)</h1>
       <hr className="hrline" />
       <div className="blogTopImage">
-        <img src="/assets/images/jsx-main.png" alt="component" />
+        <img src="/assets/images/jsx-main.png" alt="component" style={{height:"auto"}} />
       </div>
       <div className="blogContent">
         <p>

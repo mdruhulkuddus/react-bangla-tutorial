@@ -111,9 +111,4 @@ ReactDOM.render(
 
 </br>
 
-### রিয়াক্টের মজার সব বিষয় আমরা এই সাইটে নিয়ে এসেছি।
-
-#### যাদের ব্লগ থেকে লেখাগুলো সংযোজন করা হয়েছে।
-
-##### [Md. Ruhul Kuddus](https://github.com/mdruhulkuddus)
-##### [Md Sabbir hossain](https://www.linkedin.com/pulse/react-js-%E0%A6%95-%E0%A6%95%E0%A6%A8-%E0%A6%95%E0%A6%AD%E0%A6%AC-md-sabbir-hossain)
+##### রিঅ্যাক্ট অফিশিয়াল ডকুমেন্টেশন   [react.dev](https://react.dev/)
