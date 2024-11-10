@@ -55,16 +55,9 @@ const MenuList = ({ darkTheme }) => {
         <Menu.Item key="hooks-2">useState</Menu.Item>
         <Menu.Item key="hooks-3">useEffect</Menu.Item>
       </Menu.SubMenu>
-      <Menu.SubMenu key="subtasks" title="Tasks" icon={<BarsOutlined />}>
-        <Menu.Item key="task-1">Task 1</Menu.Item>
-        <Menu.Item key="task-2">Task 2</Menu.Item>
-      </Menu.SubMenu>
-      <Menu.SubMenu key="subtasks" title="Tasks" icon={<BarsOutlined />}>
-        <Menu.Item key="task-1">Task 1</Menu.Item>
-        <Menu.Item key="task-2">Task 2</Menu.Item>
-      </Menu.SubMenu> 
+      
       <Menu.Item key="progress" icon={<AreaChartOutlined />}>
-        Ses
+        <Link to={'/reactRoadMap'}></Link>React RoadMap
       </Menu.Item>
     </Menu>
   );

@@ -14,6 +14,7 @@ import Installation from "./pages/Installation";
 import ComponentShort from "./pages/ComponentShort";
 import State from "./pages/State";
 import Hooks from "./pages/Hooks/Hooks";
+import ReactRoadMap from "./pages/ReactRoadMap";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/installation" element={<Installation />} />
           <Route path="/state" element={<State />} />
           <Route path="/hooks-info" element={<Hooks />} />
+          <Route path="/reactRoadMap" element={<ReactRoadMap />} />
 
         </Routes>
       </LayoutComponent>
