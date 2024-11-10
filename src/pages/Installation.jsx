@@ -12,6 +12,7 @@ const Installation = () => {
         <img
           src="/assets/images/installation.png"
           alt="installation"
+          style={{height:"45vh"}}
         />
       </div>
       <div className="blogContent">

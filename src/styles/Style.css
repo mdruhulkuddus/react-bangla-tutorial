@@ -7,7 +7,9 @@
     border: 1px solid #cccc;
     margin: 20px 0;
 }
-
+.blogContent p b{
+  font-weight: 600;
+}
 .headline {
     font-size: 30px;
     font-weight: bold;
@@ -22,7 +24,7 @@
     margin: 20px 0;
 }
 .blogTopImage img{
-  height: 45vh;
+  height: auto;
 }
 .blog{
     text-align: justify;
@@ -101,4 +103,32 @@
   margin-left: 20px;
   list-style-type: disc;
 
+}
+
+/* home page styles */
+.homePageSubHeadline{
+  font-size: 20px;
+}
+
+.homepageTopicList{
+   margin-top: 15px; 
+   margin-left: 100px;
+}
+
+.homepageTopicList li{
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+}
+
+.hooksList{
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.hooksList li{
+  margin-bottom: 10px;
+  list-style-type: disc;
+  color: #087debcc;
+  /* background-color: #d3d2d2; */
 }

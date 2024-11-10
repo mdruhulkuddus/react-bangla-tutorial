@@ -12,6 +12,8 @@ import JSX from "./pages/JSX";
 import Props from "./pages/Props";
 import Installation from "./pages/Installation";
 import ComponentShort from "./pages/ComponentShort";
+import State from "./pages/State";
+import Hooks from "./pages/Hooks/Hooks";
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
       <LayoutComponent>
         <Routes>
           {/* <Route path='/' element={<App />} /> */}
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
             path="/react-info"
             // element={<Markdown>{content}</Markdown>}
@@ -31,6 +33,8 @@ function App() {
           <Route path="/jsx" element={<JSX />} />
           <Route path="/props" element={<Props />} />
           <Route path="/installation" element={<Installation />} />
+          <Route path="/state" element={<State />} />
+          <Route path="/hooks-info" element={<Hooks />} />
 
         </Routes>
       </LayoutComponent>
