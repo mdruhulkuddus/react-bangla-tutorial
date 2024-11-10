@@ -36,11 +36,11 @@ const Home = () => {
           <Link to="/props">৭। রিঅ্যাক্ট ব্যাসিকসঃ প্রপস (Props)</Link>
         </li>
         <li>
-          <Link to="/react-basics-element-render">৪। রিঅ্যাক্ট ব্যাসিকসঃ ইলিমেন্ট রেন্ডার</Link>
+          <Link to="/jsx">৪। রিঅ্যাক্ট ব্যাসিকসঃ ইলিমেন্ট রেন্ডার</Link>
         </li>
         
         <li>
-          <Link to="/react-basics-state">৬। রিঅ্যাক্ট ব্যাসিকসঃ স্ট্যাট (State)</Link>
+          <Link to="/state">৬। রিঅ্যাক্ট ব্যাসিকসঃ স্ট্যাট (State)</Link>
         </li>
    
         <li>
