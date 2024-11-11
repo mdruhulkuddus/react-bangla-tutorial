@@ -1,6 +1,17 @@
 ## React Bangla Tutorial
-<blockquote><p>Bangla React Tutorial Documentation; A beginner-friendly, open-source documentation website for learning React in Bangla. Built with React, JavaScript, and Bootstrap, this project aims to make React more accessible to Bangla-speaking developers.</p></blockquote>
 
+<table>
+    <thead>
+        <tr>
+            <th>
+                <img src="src/project_ss/ss1.png" alt="homepage">
+            </th>
+        </tr>
+    </thead>
+</table>
+
+### Bangla React Documentation
+<blockquote><p> A beginner-friendly, open-source documentation website for learning React in Bangla. Built with React, JavaScript, and Bootstrap, this project aims to make React more accessible to Bangla-speaking developers.</p></blockquote>
 
 ## Features 
 <ol>
@@ -35,7 +46,7 @@
     <thead>
         <tr>
             <th>
-                <img src="src/project_ss/ss1.png" alt="homepage">
+                <img src="src/project_ss/ss2.png" alt="homepage">
             </th>
         </tr>
     </thead>
