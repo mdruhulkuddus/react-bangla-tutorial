@@ -40,8 +40,7 @@
     <li>Bootstrap</li>
 </ul>
 
-## ScreenShot of this project
-## Homepage
+## Main Content
 <table>
     <thead>
         <tr>
